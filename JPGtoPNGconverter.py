@@ -1,4 +1,3 @@
-# images with just a few colours are actually better when you develop websites to use PNG
 from PIL import Image, ImageFilter
 from sys import argv
 import os
