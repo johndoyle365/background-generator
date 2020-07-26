@@ -8,7 +8,7 @@ try:
 
     img_files = os.listdir(orig_img_folder)
 
-    if not os.path.exists(new_folder):  # could also use pathlib module for this
+    if not os.path.exists(new_folder):
         os.mkdir(new_folder)
 
     for filename in img_files:
